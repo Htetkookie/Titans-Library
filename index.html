@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link -->
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--First Header section -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fa-solid fa-book"></i> Titan</a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" id="search-box" placeholder="search" />
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fa-solid fa-moon"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <!-- Second Header Section -->
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#aboutus">Featured</a>
+                <a href="#books">Arrivals</a>
+                <a href="#authors">Authors</a>
+                <a href="#profile">About Us</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- bottom navbar -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fa-solid fa-book-open"></a>
+        <a href="#arrivals" class="fa-solid fa-user"></a>
+        <a href="#cathegorie" class="fa-solid fa-list"></a>
+        <a href="#profile" class="fa-solid fa-address-card"></a>
+    </nav>
+
+
+
+    <!-- Login Form -->
+
+    <div class="login-form-container">
+        <form action="">
+
+            <div id="close-login-btn" class="fas fa-times"></div>
+
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="" />
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
+        </form>
+    </div>
+
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>Unlock a Universe of</h3>
+                <h3 class="knowledge">Knowledge<sup class="sup">with our Titan's Library</sup></h3>
+                <a href="#" class="btn1">Sign in</a>
+                <a href="#" class="btn2">Sign up</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="./image/bookcover/cover_1.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./image/bookcover/cover_2.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./image/bookcover/cover_4.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./image/bookcover/cover_5.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./image/bookcover/cover_6.png" alt=""></a>
+                </div>
+                <img src="./image/lovestand_2.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- category section -->
+
+    <div class="home-category">
+
+        <div class="swiper category-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/art.png" alt="">
+                    <h3>Art and Design</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/fast-food.png" alt="">
+                    <h3>Food and drinks</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/health.png" alt="">
+                    <h3>Health</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/techno.png" alt="">
+                    <h3>Technology</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/comic.png" alt="">
+                    <h3>Comic</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/education.png" alt="">
+                    <h3>Education</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/moti.png" alt="">
+                    <h3>Motivation</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./image/cathegories/noble.png" alt="">
+                    <h3>Noble</h3>
+                    <p class="btn3"><a href="#">Explore Now</a></p>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+    </div>
+
+    <!-- Popular Books -->
+    <div class="tango">
+        <div class="title">
+            <h3>Popular Books</h3>
+            <h3><a href="#">See more >></a></h3>
+        </div>
+
+        <section class="popular" id="popular">
+            <div class="swiper popular-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_1.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_2.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_4.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_1.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_2.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_4.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_5.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- banner section -->
+
+    <div class="echo">
+        <div class="swiper banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./image/banner_3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./image/banner_2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./image/banner_1.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- suggest Books -->
+    <div class="tango">
+        <div class="title">
+            <h3>Suggestion</h3>
+            <h3><a href="#">See more >></a></h3>
+        </div>
+
+        <section class="popular" id="popular">
+            <div class="swiper popular-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_1.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_2.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_4.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_1.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_2.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_3.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_4.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-download"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="./image/bookcover/cover_5.png" alt=""></a>
+                        </div>
+                        <div class="content">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Book Title</h3>
+                            <div class="by">by <span><a href="#">author</a></span></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- Authors -->
+
+    
+
+    <div class="authors">
+        <div class="title">
+            <h3>Authors</h3>
+            <h3><a href="#">See more >></a></h3>
+        </div>
+        <div class="swiper authors-card">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_juu.jpg" alt="">
+                    </a>
+                    <p><a href="#">Juu</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_mgtharcho.jpg" alt="">
+                    </a>
+                    <p><a href="#">Mg Thar Cho</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_myathanthint.jpg" alt="">
+                    </a>
+                    <p><a href="#">Mya Than Thint</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_juu.jpg" alt="">
+                    </a>
+                    <p><a href="#">Juu</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_mgtharcho.jpg" alt="">
+                    </a>
+                    <p><a href="#">Mg Thar Cho</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_myathanthint.jpg" alt="">
+                    </a>
+                    <p><a href="#">Mya Than Thint</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_juu.jpg" alt="">
+                    </a>
+                    <p><a href="#">Juu</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_mgtharcho.jpg" alt="">
+                    </a>
+                    <p><a href="#">Mg Thar Cho</a></p>
+
+                </div>
+
+                <div class="swiper-slide authors-slide">
+
+                    <a href="">
+                        <img src="./image/author_pics/author_myathanthint.jpg" alt="">
+                    </a>
+                    <p><a href="#">Mya Than Thint</a></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <br /><br /><br /><br />
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer_main">
+
+            <div class="tag">
+                <h1>Quick Link</h1>
+                <a href="#">Home</a>
+                <a href="#">Featured</a>
+                <a href="#">Arrivals</a>
+                <a href="#">Authors</a>
+                <a href="#">About Us</a>
+            </div>
+
+            <div class="tag">
+                <h1>Contact Info</h1>
+                <a href="#"><i class="fa-solid fa-phone"></i>+959 123456789</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>+959 123456789</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i><span
+                        style="text-decoration: none !important;">titan@gmail.com</span></a>
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="end">&copy;Copyright to Tech Titan (National University of Computer Studies)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- custom JS file link -->
+        <script src="./script.js"></script>
+</body>
+
+</html>
